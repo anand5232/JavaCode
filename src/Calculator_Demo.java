@@ -46,4 +46,19 @@ public class Calculator_Demo {
         input.close();
         System.out.println(" Sum = " + result);
     }
+
+    public static void substraction() {
+        int num1, num2, result;
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Substraction ");
+        System.out.println("Enter First Number");
+        num1 = input.nextInt();
+        System.out.println("Enter Second Number");
+        num2 = input.nextInt();
+        result = num2 - num1;
+        input.close();
+        System.out.println("Result = " + result);
+    }
+
 }
